@@ -1,0 +1,48 @@
+@import url('http://getbootstrap.com/dist/css/bootstrap.css');
+@import url(http://fonts.googleapis.com/css?family=Merriweather:400,400italic,700);
+ html, body, .container-table {
+    height: 100%;
+    no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+ 
+}
+#countTimer {
+	font-family: Merriweather, Helvetica, Arial, sans-serif; font-size: 100px; line-height: 1.5; color: #FFFFFF;
+}
+
+
+#score  {
+	font-size: 20px;
+}
+
+.footer {
+  font-family: Merriweather, Helvetica, Arial, sans-serif; font-size: 15px; line-height: 1.5; color: #FFFFFF;
+  position: absolute;
+  
+  bottom: 0;
+  height: 70px;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  background-color: #000;
+}
+
+.container-footer {
+  width: auto;
+  max-width: auto;
+  padding: 0 20px;
+}
+.container-footer .text-muted {
+  margin: 20px 3px;
+}
+
+.site-nav {
+	 color: #000000;
+	 padding-right: 30px;
+}
+
+.copyright{
+	float:right;
+}
